@@ -285,7 +285,7 @@ button:hover {
     margin-left: 100px;
 }
 
-/*-----------------------------MID CONTAINER----------------------------------*/
+/*-----------------------------SIDEBAR----------------------------------*/
 
           /*-------------------  first post  -----------------------*/
 .right-container {
@@ -434,3 +434,36 @@ button:hover {
     margin-top: 10px;
 }
 
+/*-----------------------------FOOTER----------------------------------*/
+footer {
+    position: absolute;
+    bottom: 1;
+    left: 0;
+    width: 100%;
+    
+}
+
+.footer-top {
+    background: #4a5a64;
+    color: white;
+    text-align: left;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.footer-bottom {
+    background: #37474f;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.footer-bottom a {
+    color: #d5d5d5;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
